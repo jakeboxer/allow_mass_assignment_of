@@ -10,6 +10,8 @@ doc
 
 # bundler
 .bundle
+vendor/gems
+bin
 
 # jeweler generated
 pkg
@@ -30,19 +32,19 @@ pkg
 #.DS_Store
 
 # For TextMate
-#*.tmproj
-#tmtags
+*.tmproj
+tmtags
 
 # For emacs:
-#*~
-#\#*
-#.\#*
+*~
+\#*
+.\#*
 
 # For vim:
-#*.swp
+*.swp
 
 # For redcar:
-#.redcar
+.redcar
 
 # For rubinius:
-#*.rbc
+*.rbc
